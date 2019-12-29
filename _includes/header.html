@@ -1,0 +1,56 @@
+<header id="top">
+    <div class="page-header">
+        <a href="{{ site.baseurl }}/" class="project-name">{{ site.title }}</a>
+        <div class="project-tagline">{{site.description}}</div>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <nav id="headerNav">
+            <ul>
+                <li>
+                    {% if page.url == '/' %}
+                        <a class="active" href="{{ '/' | prepend: site.baseurl }}">
+                    {% else %}
+                        <a href="{{ '/' | prepend: site.baseurl }}">
+                    {% endif %}
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+
+                <li>
+                    {% if page.url == '/doc/' %}
+                    <a class="active" href="{{ '/doc/' | prepend: site.baseurl }}">
+                        {% else %}
+                    <a href="{{ '/doc/'' | prepend: site.baseurl }}">
+                    {% endif %}
+                        <i class="fa fa-file-o"></i>Docs
+                    </a>
+                </li>
+
+                <li>
+                    {% if page.url == '/download/' %}
+                    <a class="active" href="{{ '/download/' | prepend: site.baseurl }}">
+                        {% else %}
+                    <a href="{{ '/download/' | prepend: site.baseurl }}">
+                    {% endif %}
+                        <i class="fa fa-download"></i>Download
+                    </a>
+                </li>
+
+                <li>
+                    {% if page.url == '/about/' %}
+                    <a class="active" href="{{ '/about/' | prepend: site.baseurl }}">
+                        {% else %}
+                    <a href="{{ '/about/' | prepend: site.baseurl }}">
+                    {% endif %}
+                        <i class="fa fa-info-circle"></i>About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{'/index_cn.html' | prepend: site.baseurl}}">
+                        <i class="fa fa-language"></i>中文
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

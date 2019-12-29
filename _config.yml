@@ -1,1 +1,71 @@
-theme: jekyll-theme-cayman
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: swordUML
+description: A simple UML editor.  # this means to ignore newlines until "baseurl:"
+description_cn: 一款简洁好用的UML编辑器。  # this means to ignore newlines until "baseurl:"
+description_footer: Never Give Up.
+description_footer_cn: 登昆仑兮四望 心飞扬兮浩荡 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zcatt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username:  zcatt
+email: sworduml@163.com
+#email: zcatt@163.com
+weibo_username: swordUML
+zhihu_username:
+linkedIn_username:
+dribbble_username:
+
+my_last_edit_date: 2019Dec29
+# Build settings
+#theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jemoji
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

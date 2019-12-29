@@ -1,0 +1,57 @@
+<header id="top">
+        <div class="page-header">
+            <a href="{{ site.baseurl }}/" class="project-name">{{ site.title }}</a>
+            <div class="project-tagline">{{site.description_cn}}</div>
+            <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+            <nav id="headerNav">
+                <ul>
+                    <li>
+                        {% if page.url == '/' %}
+                            <a class="active" href="{{ '/index_cn.html' | prepend: site.baseurl }}">
+                        {% else %}
+                            <a href="{{ '/index_cn.html' | prepend: site.baseurl }}">
+                        {% endif %}
+                            <i class="fa fa-home"></i>首页
+                        </a>
+                    </li>
+    
+                    <li>
+                        {% if page.url == '/doc_cn/' %}
+                        <a class="active" href="{{ '/doc_cn/' | prepend: site.baseurl }}">
+                            {% else %}
+                        <a href="{{ '/doc_cn/'' | prepend: site.baseurl }}">
+                        {% endif %}
+                            <i class="fa fa-file-o"></i>文档
+                        </a>
+                    </li>
+    
+                    <li>
+                        {% if page.url == '/download_cn/' %}
+                        <a class="active" href="{{ '/download_cn/' | prepend: site.baseurl }}">
+                            {% else %}
+                        <a href="{{ '/download_cn/' | prepend: site.baseurl }}">
+                        {% endif %}
+                            <i class="fa fa-download"></i>下载
+                        </a>
+                    </li>
+    
+                    <li>
+                        {% if page.url == '/about_cn/' %}
+                        <a class="active" href="{{ '/about_cn/' | prepend: site.baseurl }}">
+                            {% else %}
+                        <a href="{{ '/about_cn/' | prepend: site.baseurl }}">
+                        {% endif %}
+                            <i class="fa fa-info-circle"></i>关于
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="{{'/index.html' | prepend: site.baseurl}}">
+                            <i class="fa fa-language"></i>English
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
