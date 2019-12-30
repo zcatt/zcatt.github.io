@@ -8,7 +8,7 @@ title: swordUML
 {:toc}
 
 
-# swordUMl 介绍
+# swordUML 介绍
 
 ## swordUML是一款简洁的UML编辑器。
 
