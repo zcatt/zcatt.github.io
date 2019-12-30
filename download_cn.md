@@ -17,12 +17,12 @@ Access Code: kpd6
 
 ## Github
 
-Link: <https://github.com/zcatt/swordUML/blob/master/swordUMLSetup.1.0.0.exe>
+Link: <https://github.com/zcatt/swordUML/releases>
 
-如上链接进入swordUML的页面，点击**Download**完成下载。 
+如上链接进入swordUML的页面，点击**swordUMLSetup.1.0.0.exe**完成下载。 
 
 ## Gitee
 
-Link: <https://gitee.com/zcatt/swordUML/blob/master/swordUMLSetup.1.0.0.exe>
+Link: <https://gitee.com/zcatt/swordUML/releases>
 
-如上链接进入swordUML的页面，点击**Download**完成下载。 
+如上链接进入swordUML的页面，点击**swordUMLSetup.1.0.0.exe**完成下载。 

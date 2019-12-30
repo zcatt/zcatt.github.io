@@ -16,13 +16,13 @@ Access Code: kpd6
 
 ## Github
 
-Link: <https://github.com/zcatt/swordUML/blob/master/swordUMLSetup.1.0.0.exe>
+Link: <https://github.com/zcatt/swordUML/releases>
 
-Go to the swordUML project gitHub page as the above link, and click **Download** to download it. 
+Go to the release page in swordUML project as the above link, and click **swordUMLSetup.1.0.0.exe** to download it. 
 
 ## Gitee
 
-Link: <https://gitee.com/zcatt/swordUML/blob/master/swordUMLSetup.1.0.0.exe>
+Link: <https://gitee.com/zcatt/swordUML/releases>
 
-Go to the swordUML project gitHub page as the above link, and click **Download** to download it. 
+Go to the release page in swordUML project as the above link, and click **swordUMLSetup.1.0.0.exe** to download it. 
 
